@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6184365480:AAHfps14xl7-zNknrVov6FOZXm37OdG6aI8")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5839732914:AAH-dZMaTjHUDFWE02MnJEfvbhTEn11Fs_Q")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "9774346"))
@@ -12,7 +12,7 @@ APP_ID = int(os.environ.get("APP_ID", "9774346"))
 API_HASH = os.environ.get("API_HASH", "a92aed7d74654a563af4b07efbcd88e9")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001422964183"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001890819533"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "907544310"))
@@ -21,7 +21,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "907544310"))
 DB_URI = os.environ.get("DATABASE_URL", "postgresql://mxyspspz:vc5-Pd2-d_dGr58zPBzowKMsxAaM8_ih@baasu.db.elephantsql.com/mxyspspz")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001857806665"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001813395412"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -29,7 +29,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\ndek Dek Tutor Dek.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "907544310 1670927917").split()):
+    for x in (os.environ.get("ADMINS", "2138330396").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
